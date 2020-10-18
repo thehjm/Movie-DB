@@ -18,6 +18,8 @@ function MainImage(props) {
             width: '100%',
             position: 'relative'
         }}>
+
+            
             <div>
                 <div style={{ position: 'absolute', maxWidth: '500px', bottom: '2rem', marginLeft: '2rem' }}>
                     <Title style={{ color: 'white' }} level={2}>{props.title}</Title>
